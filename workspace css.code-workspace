@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\Java programming"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Dashboard"
+	}
+}

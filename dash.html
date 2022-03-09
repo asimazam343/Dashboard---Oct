@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css">
+    <link rel="stylesheet" href="dash.css">
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i"
+        rel="stylesheet">
+
+
+
+
+
+    <title>Admin Dashboard</title>
+
+</head>
+
+<body class="bg-info">
+    <!-- 
+    navbar -->
+    <div class="container-fluid " id="navbartop">
+        <div class="row">
+
+            <div class="col-md-4" id="logo">
+                <h4 class="ml-3 text-white">Admin <span class="text-warning"><b>Dashboard</b></span></h4>
+            </div>
+            <div class="col-md-2" id="input-text">
+                <input type="text">
+            </div>
+
+            <div class="col-md-6 " id="icons">
+                <ul class="list-unstyled ">
+                    <li id="profile-img"><a href="">
+                            <img class="img-fluid" src="./images/profile-img.png" width="40px" height="40px"></a></li>
+                    <li><a href=""><i class="fa fa-shopping-cart"></i></a></li>
+                    <li><a href=""><i class="fa fa-user-circle"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- sidenavbar -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2  " id="side-nav-col">
+                <div class="btn-group flex-column w-100">
+                    <button class="btn btn-warning p-5 text-white">Sales</button>
+                    <button class="btn btn-warning p-5 text-white">Customer</button>
+                    <button class="btn btn-warning p-5 text-white">Delivery</button>
+                    <button class="btn btn-warning p-5 text-white">Stock</button>
+                    <button class="btn btn-warning p-5 text-white">Accounts</button>
+                </div>
+            </div>
+            <!-- center section -->
+            <div class="col-md-10">
+                <div class="title mt-3" id="dashboardtext">
+                    <h2 class="text-white"> <i class="fa fa-dashboard text-white"></i> Dashboard</h2>
+                </div>
+                <!-- card row -->
+                <div class="row m-5" id="">
+                    <div class="col-md-3" id="card-section">
+                        <div class="card shadow">
+
+                            <div class="card-body">
+                                <h2 class="card-title"> <img class="img-fluid" src="./images/sales-icon.png"
+                                        width="50px" height="50px"> Sales</h2>
+                                <div class="sales">
+                                    <p>Total Sales: <span class="badge badge-primary ml-5">19</span></p>
+                                    <p>Items Catagory: <span class="badge badge-primary ml-5">22</span></p>
+                                    <P>Delivered : <span class="badge badge-primary ml-5">89</span></P>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card shadow ">
+
+                            <div class="card-body">
+                                <h2 class="card-title"><img class="img-fluid" src="./images/customer.png" width="50px"
+                                        height="50px">Customer</h2>
+                                <div class="sales">
+                                    <p>Total Sales: <span class="badge badge-warning ml-5">54</span> </p>
+                                    <p>Items Catagory: <span class="badge badge-warning ml-5">56</span></p>
+                                    <P>Delivered : <span class="badge badge-warning ml-5">32</span></P>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card shadow">
+
+                            <div class="card-body">
+                                <h2 class="card-title"><img class="img-fluid" src="./images/currency.png" width="50px"
+                                        height="50px">Daily Profit</h2>
+                                <div class="sales">
+                                    <p>Total Sales: <span class="badge badge-info ml-5">79</span> </p>
+                                    <p>Items Catagory: <span class="badge badge-info ml-5">43</span></p>
+                                    <P>Delivered : <span class="badge badge-info ml-5">22</span></P>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card shadow">
+
+                            <div class="card-body">
+                                <h2 class="card-title"><img class="img-fluid" src="./images/cart.png" width="50px"
+                                        height="50px">Delivery</h2>
+                                <div class="sales">
+                                    <p>Total Sales: <span class="badge badge-success ml-5">79</span> </p>
+                                    <p>Items Catagory: <span class="badge badge-success ml-5">56</span></p>
+                                    <P>Delivered : <span class="badge badge-success ml-5">34</span></P>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- table row -->
+
+                <div class="row p-5">
+                    <div class="col-lg-12 col-md-12  col-sm-1 col-xm-12" id="tabledata">
+                        <h5 class="text-white">Recent customer history</h5>
+                        <table class="table shadow">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th>No.</th>
+                                    <th>Order Number</th>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>Address</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr id="tablerow">
+                                    <th>1</th>
+                                    <td>#74876</td>
+                                    <td>Samad</td>
+                                    <td>Print cup teak bags</td>
+                                    <td>Jaffar Chowk Street, Maira Jaffar, F-12</td>
+                                    <td>Clear</td>
+                                </tr>
+                                <tr>
+                                    <th>2</th>
+                                    <td>#55473</td>
+                                    <td>Nameer</td>
+                                    <td>Paper glass</td>
+                                    <td>Vacuum cleaner bags, water, air, coolant</td>
+                                    <td>Clear</td>
+                                </tr>
+                                <tr>
+                                    <th>3</th>
+                                    <td>#98662</td>
+                                    <td>Nehan</td>
+                                    <td>Hypodermic needles</td>
+                                    <td>Beverly Centre, Jinnah Ave · (051) 8430561</td>
+                                    <td>Clear</td>
+                                </tr>
+                                <tr>
+                                    <th>4</th>
+                                    <td>#12445</td>
+                                    <td>Jibran</td>
+                                    <td>Baby and adult diapers, and training pants</td>
+                                    <td>Rose 1 Plaza, Tipu Sultan Rd</td>
+                                    <td>Clear</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
